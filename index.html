@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sean Zhang 的个人网站，展示金融分析、风险管理、数据分析、Excel 自动化项目和简历。"
+    />
+    <title>Sean Zhang | Finance & Risk Management</title>
+    <link rel="preload" href="assets/portfolio-workspace.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skipLink">跳到主要内容</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Sean Zhang 首页" data-i18n-aria-label="brandAria">
+        <span class="brand-mark">SZ</span>
+        <span>Sean Zhang</span>
+      </a>
+
+      <div class="header-actions">
+        <nav class="site-nav" id="site-nav" aria-label="主导航" data-i18n-aria-label="mainNavAria">
+          <a href="#resume" data-i18n="navResume">简历</a>
+          <a href="#projects" data-i18n="navProjects">项目</a>
+          <a href="#skills" data-i18n="navSkills">技能</a>
+          <a href="#contact" data-i18n="navContact">联系</a>
+        </nav>
+
+        <button
+          class="language-toggle"
+          type="button"
+          data-lang-toggle
+          aria-label="Switch to English"
+          data-i18n-aria-label="languageToggleAria"
+        >
+          <span data-i18n="languageToggle">EN</span>
+        </button>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="sr-only" data-i18n="menuToggle">打开导航</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-label="个人介绍" data-i18n-aria-label="heroAria">
+        <div class="hero__media" aria-hidden="true"></div>
+        <div class="hero__overlay" aria-hidden="true"></div>
+
+        <div class="hero__content">
+          <p class="eyebrow" data-i18n="heroEyebrow">金融分析 / 风险管理 / 数据分析</p>
+          <h1>Sean Zhang</h1>
+          <p class="hero__summary" data-i18n="heroSummary">
+            我专注于金融分析、信用风险、数据建模和 Excel 自动化，把银行实习经验、风险分析项目和技术能力结合起来，做出清晰、可靠、可执行的业务洞察。
+          </p>
+
+          <div class="hero__actions" aria-label="主要操作" data-i18n-aria-label="heroActionsAria">
+            <a class="button button--primary" href="#projects" data-i18n="heroProjectsButton">查看项目</a>
+            <a class="button button--secondary" href="assets/sean-zhang-resume.pdf" data-i18n="heroResumeButton">下载简历</a>
+          </div>
+
+          <dl class="hero__facts" aria-label="个人概览" data-i18n-aria-label="heroFactsAria">
+            <div>
+              <dt data-i18n="factFocusLabel">Focus</dt>
+              <dd data-i18n="factFocusValue">金融分析、信用风险、Excel 自动化</dd>
+            </div>
+            <div>
+              <dt data-i18n="factEducationLabel">Education</dt>
+              <dd data-i18n="factEducationValue">University of Waterloo · BMath FARM</dd>
+            </div>
+            <div>
+              <dt data-i18n="factToolsLabel">Tools</dt>
+              <dd data-i18n="factToolsValue">Python, Power BI, Excel/VBA, SQL</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section section--intro" aria-label="简介" data-i18n-aria-label="introAria">
+        <div class="section__inner intro-grid">
+          <div>
+            <p class="eyebrow" data-i18n="profileEyebrow">Profile</p>
+            <h2 data-i18n="profileTitle">用金融判断和数据工具解决真实业务问题。</h2>
+          </div>
+          <p data-i18n="profileBody">
+            我目前在 University of Waterloo 攻读 Financial Analysis and Risk Management，并辅修 Computing。我的经历集中在私人银行服务、GIC 客户流程、信用风险分析、Excel/VBA 自动化和 AI 辅助内容优化。
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="section__inner">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="resumeEyebrow">Resume</p>
+            <h2 data-i18n="resumeTitle">简历快照</h2>
+            <p data-i18n="resumeBody">
+              这里突出和 finance、risk management、data analytics 最相关的经历。完整版本可以直接下载 PDF 简历。
+            </p>
+            <a class="inline-link" href="assets/sean-zhang-resume.pdf" data-i18n="resumeDownload">下载完整 PDF 简历</a>
+          </div>
+
+          <div class="resume-layout">
+            <article class="timeline-block">
+              <h3 data-i18n="experienceTitle">Experience</h3>
+              <ol class="timeline">
+                <li>
+                  <div class="timeline__date" data-i18n="bmoGicDate">2025.09 - 2025.12</div>
+                  <div class="timeline__body">
+                    <h4 data-i18n="bmoGicTitle">Bank of Montreal · Private Banking Services · GIC Intern</h4>
+                    <p data-i18n="bmoGicBody">
+                      处理 300+ 次 GIC 客户沟通和 100+ 份学生 GIC/银行账户申请，并通过 Excel 模板和 CSV 主数据生成、校验每日申请报告。
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline__date" data-i18n="bmoPbsDate">2025.04 - 2025.08</div>
+                  <div class="timeline__body">
+                    <h4 data-i18n="bmoPbsTitle">Bank of Montreal · Private Banking Services · PBS Intern</h4>
+                    <p data-i18n="bmoPbsBody">
+                      支持 100+ 名跨境客户完成 Asian Referral Program，并开发 Excel VBA 自动化工具导入 CSV 客户数据、填写服务表格、生成个性化邮件。
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline__date" data-i18n="dundasDate">2024.10 - 2024.12</div>
+                  <div class="timeline__body">
+                    <h4 data-i18n="dundasTitle">Dundas Life · AI Generated Content Creation and Optimization</h4>
+                    <p data-i18n="dundasBody">
+                      使用 ChatGPT、OpenAI 和 SEO 工作流生成、编辑、审核 50+ 篇内容，优化搜索可见性、可读性和关键词匹配。
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </article>
+
+            <article class="timeline-block">
+              <h3 data-i18n="educationTitle">Education</h3>
+              <ol class="timeline">
+                <li>
+                  <div class="timeline__date" data-i18n="waterlooDate">2023.09 - 2028.05</div>
+                  <div class="timeline__body">
+                    <h4 data-i18n="waterlooTitle">University of Waterloo · BMath in Financial Analysis and Risk Management</h4>
+                    <p data-i18n="waterlooBody">
+                      Computing Minor, Co-op。学习重点包括金融分析、风险管理、编程、数据分析和面向业务决策的量化工具。
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline__date" data-i18n="techDate">Technologies</div>
+                  <div class="timeline__body">
+                    <h4 data-i18n="techTitle">Finance + Analytics Toolkit</h4>
+                    <p data-i18n="techBody">
+                      Python, R, C, VBA, Bash, Excel, PivotTables, XLOOKUP, COUNTIFS, Power BI, pandas, scikit-learn, SQL。
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="projects">
+        <div class="section__inner">
+          <div class="section-heading section-heading--split">
+            <div>
+              <p class="eyebrow" data-i18n="projectsEyebrow">Projects</p>
+              <h2 data-i18n="projectsTitle">项目作品</h2>
+              <p data-i18n="projectsBody">
+                项目重点放在信用风险、金融数据分析和 Excel 自动化，展示如何把数据处理、模型判断和业务解释连起来。
+              </p>
+            </div>
+
+            <div class="project-filters" aria-label="项目筛选" data-i18n-aria-label="projectFiltersAria">
+              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true" data-i18n="filterAll">
+                全部
+              </button>
+              <button class="filter-button" type="button" data-filter="finance" aria-pressed="false" data-i18n="filterFinance">
+                金融
+              </button>
+              <button class="filter-button" type="button" data-filter="risk" aria-pressed="false" data-i18n="filterRisk">
+                风险
+              </button>
+              <button class="filter-button" type="button" data-filter="excel" aria-pressed="false" data-i18n="filterExcel">
+                Excel
+              </button>
+              <button class="filter-button" type="button" data-filter="data" aria-pressed="false" data-i18n="filterData">
+                数据
+              </button>
+            </div>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card" data-category="finance risk data">
+              <div class="project-card__top">
+                <p class="project-card__type" data-i18n="creditProjectType">信用风险 · 数据分析</p>
+                <h3 data-i18n="creditProjectTitle">Credit Risk Analytics Dashboard and Classification Project</h3>
+              </div>
+              <p data-i18n="creditProjectBody">
+                使用 Python 分析 1,000 名德国信用申请人，并用 Power BI 搭建交互式仪表盘，追踪违约率、贷款敞口、风险分层和 false-negative risk。
+              </p>
+              <ul class="tag-list" aria-label="技术栈" data-i18n-aria-label="techStackAria">
+                <li>Python</li>
+                <li>Power BI</li>
+                <li>pandas</li>
+                <li>scikit-learn</li>
+              </ul>
+              <div class="project-card__links">
+                <a
+                  href="https://github.com/ggttppyq/credit-risk-analytics-dashboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-i18n="projectGithubLink"
+                >
+                  GitHub
+                </a>
+                <a href="assets/sean-zhang-resume.pdf" data-i18n="projectResumeLink">见简历</a>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="finance excel data">
+              <div class="project-card__top">
+                <p class="project-card__type" data-i18n="excelProjectType">Excel/VBA · 银行流程自动化</p>
+                <h3 data-i18n="excelProjectTitle">BMO Client Service Form Automation</h3>
+              </div>
+              <p data-i18n="excelProjectBody">
+                开发 Excel VBA 工具，从 CSV 导入客户数据，自动填写服务表格并生成个性化客户邮件，减少手工录入，提高处理准确性。
+              </p>
+              <ul class="tag-list" aria-label="技术栈" data-i18n-aria-label="techStackAria">
+                <li>Excel</li>
+                <li>VBA</li>
+                <li>CSV</li>
+                <li>Process Automation</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="assets/sean-zhang-resume.pdf" data-i18n="projectResumeLink">见简历</a>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="finance excel data">
+              <div class="project-card__top">
+                <p class="project-card__type" data-i18n="gicProjectType">Excel Reporting · GIC Operations</p>
+                <h3 data-i18n="gicProjectTitle">Daily GIC Application Reporting Workflow</h3>
+              </div>
+              <p data-i18n="gicProjectBody">
+                刷新连接主申请 CSV 文件的 Excel 模板，生成并校验每日 GIC 申请报告，汇总新增和更新申请，支持后续跟踪管理。
+              </p>
+              <ul class="tag-list" aria-label="技术栈" data-i18n-aria-label="techStackAria">
+                <li>Excel</li>
+                <li>CSV</li>
+                <li>Reporting</li>
+                <li>Data Validation</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="assets/sean-zhang-resume.pdf" data-i18n="projectResumeLink">见简历</a>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="data">
+              <div class="project-card__top">
+                <p class="project-card__type" data-i18n="seoProjectType">AI + Analytics · SEO</p>
+                <h3 data-i18n="seoProjectTitle">AI-Assisted Content Optimization</h3>
+              </div>
+              <p data-i18n="seoProjectBody">
+                使用 AI 工具和 SEO 原则生成、编辑、审核 50+ 篇内容，提升搜索可见性、可读性、关键词一致性和品牌语气。
+              </p>
+              <ul class="tag-list" aria-label="技术栈" data-i18n-aria-label="techStackAria">
+                <li>OpenAI</li>
+                <li>SEO</li>
+                <li>Google Analytics</li>
+                <li>Surfer</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="assets/sean-zhang-resume.pdf" data-i18n="projectResumeLink">见简历</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section__inner">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="skillsEyebrow">Skills</p>
+            <h2 data-i18n="skillsTitle">技能方向</h2>
+            <p data-i18n="skillsBody">
+              技能展示按 finance 和 risk management 方向重新排序，把金融工具、数据分析和自动化能力放在前面。
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-block">
+              <h3 data-i18n="skillFinanceTitle">Finance & Risk</h3>
+              <p data-i18n="skillFinanceBody">Credit risk, GIC services, loan exposure, liquidity risk, risk segmentation</p>
+            </article>
+            <article class="skill-block">
+              <h3 data-i18n="skillAnalyticsTitle">Data Analytics</h3>
+              <p data-i18n="skillAnalyticsBody">Python, pandas, scikit-learn, Power BI, SQL, R, data validation</p>
+            </article>
+            <article class="skill-block">
+              <h3 data-i18n="skillExcelTitle">Excel Automation</h3>
+              <p data-i18n="skillExcelBody">Excel, VBA, PivotTables, XLOOKUP, COUNTIFS, CSV workflows, reporting templates</p>
+            </article>
+            <article class="skill-block">
+              <h3 data-i18n="skillToolsTitle">Tools & Communication</h3>
+              <p data-i18n="skillToolsBody">Git, SSMS, DBeaver, Linux, LaTeX, client communication, English and Mandarin</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="section__inner contact-layout">
+          <div>
+            <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+            <h2 data-i18n="contactTitle">欢迎联系我讨论金融、风险管理、数据分析或实习机会。</h2>
+          </div>
+          <div class="contact-actions">
+            <a class="button button--primary" href="mailto:s244zhan@uwaterloo.ca" data-i18n="contactEmailButton">发送邮件</a>
+            <a class="button button--secondary" href="https://linkedin.com/in/seanzhang1022" data-i18n="contactLinkedinButton">LinkedIn</a>
+            <button class="button button--secondary" type="button" data-copy-email data-email="s244zhan@uwaterloo.ca" data-i18n="contactCopyButton">
+              复制邮箱
+            </button>
+            <p class="copy-status" data-copy-status aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footerText">© 2026 Sean Zhang. Finance, risk management, analytics, and automation.</p>
+      <a href="#top" data-i18n="footerTop">回到顶部</a>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
