@@ -71,13 +71,11 @@ const translations = {
     projectsEyebrow: "Projects",
     projectsTitle: "项目作品",
     projectsBody:
-      "项目重点放在信用风险、金融数据分析和 Excel 自动化，展示如何把数据处理、模型判断和业务解释连起来。",
+      "这里只展示最能代表我 finance、risk management 和 Excel 自动化方向的两个项目。",
     projectFiltersAria: "项目筛选",
     filterAll: "全部",
-    filterFinance: "金融",
-    filterRisk: "风险",
+    filterRisk: "Credit Risk",
     filterExcel: "Excel",
-    filterData: "数据",
     creditProjectType: "信用风险 · 数据分析",
     creditProjectTitle: "Credit Risk Analytics Dashboard and Classification Project",
     creditProjectBody:
@@ -89,14 +87,6 @@ const translations = {
     excelProjectTitle: "BMO Client Service Form Automation",
     excelProjectBody:
       "开发 Excel VBA 工具，从 CSV 导入客户数据，自动填写服务表格并生成个性化客户邮件，减少手工录入，提高处理准确性。",
-    gicProjectType: "Excel Reporting · GIC Operations",
-    gicProjectTitle: "Daily GIC Application Reporting Workflow",
-    gicProjectBody:
-      "刷新连接主申请 CSV 文件的 Excel 模板，生成并校验每日 GIC 申请报告，汇总新增和更新申请，支持后续跟踪管理。",
-    seoProjectType: "AI + Analytics · SEO",
-    seoProjectTitle: "AI-Assisted Content Optimization",
-    seoProjectBody:
-      "使用 AI 工具和 SEO 原则生成、编辑、审核 50+ 篇内容，提升搜索可见性、可读性、关键词一致性和品牌语气。",
     skillsEyebrow: "Skills",
     skillsTitle: "技能方向",
     skillsBody:
@@ -181,13 +171,11 @@ const translations = {
     projectsEyebrow: "Projects",
     projectsTitle: "Selected Projects",
     projectsBody:
-      "These projects emphasize credit risk, financial data analysis, and Excel automation, showing how data processing, model judgment, and business interpretation connect.",
+      "These two projects best represent my focus in finance, risk management, and Excel automation.",
     projectFiltersAria: "Project filters",
     filterAll: "All",
-    filterFinance: "Finance",
-    filterRisk: "Risk",
+    filterRisk: "Credit Risk",
     filterExcel: "Excel",
-    filterData: "Data",
     creditProjectType: "Credit Risk · Data Analytics",
     creditProjectTitle: "Credit Risk Analytics Dashboard and Classification Project",
     creditProjectBody:
@@ -199,14 +187,6 @@ const translations = {
     excelProjectTitle: "BMO Client Service Form Automation",
     excelProjectBody:
       "Developed an Excel VBA tool to import customer data from CSV files, auto-fill service forms, and generate personalized client emails, reducing manual data entry and improving processing accuracy.",
-    gicProjectType: "Excel Reporting · GIC Operations",
-    gicProjectTitle: "Daily GIC Application Reporting Workflow",
-    gicProjectBody:
-      "Refreshed Excel templates linked to master application CSV files to generate and validate daily GIC application reports, summarizing new and updated applications for follow-up management.",
-    seoProjectType: "AI + Analytics · SEO",
-    seoProjectTitle: "AI-Assisted Content Optimization",
-    seoProjectBody:
-      "Used AI tools and SEO principles to generate, edit, and audit 50+ content pieces, improving search visibility, readability, keyword consistency, and brand voice.",
     skillsEyebrow: "Skills",
     skillsTitle: "Skill Areas",
     skillsBody:
