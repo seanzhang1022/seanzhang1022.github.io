@@ -518,6 +518,22 @@ h4 {
   color: var(--ink-soft);
 }
 
+.detail-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--ink-soft);
+}
+
+.detail-list li::marker {
+  color: var(--green-2);
+}
+
+.project-detail-list {
+  align-self: start;
+}
+
 .project-filters {
   display: flex;
   flex-wrap: wrap;
