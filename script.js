@@ -10,8 +10,8 @@ const metaDescription = document.querySelector('meta[name="description"]');
 
 const translations = {
   zh: {
-    pageTitle: "Sean Zhang | 金融分析与风险管理",
-    metaDescription: "Sean Zhang 的个人网站，展示金融分析、风险管理、数据分析、Excel 自动化项目和简历。",
+    pageTitle: "Sean Zhang | 数据分析、风险管理与业务分析",
+    metaDescription: "Sean Zhang 的个人网站，展示数据分析、风险管理、业务分析、Excel 自动化项目和简历。",
     skipLink: "跳到主要内容",
     brandAria: "Sean Zhang 首页",
     mainNavAria: "主导航",
@@ -23,7 +23,7 @@ const translations = {
     languageToggleAria: "切换到英文",
     menuToggle: "打开导航",
     heroAria: "个人介绍",
-    heroEyebrow: "金融、风险与数据分析",
+    heroEyebrow: "数据分析、风险管理、业务分析",
     heroSummary:
       "我结合银行运营经验、Python、Power BI、SQL 和 Excel/VBA，搭建风险仪表盘、验证运营数据，并自动化重复性工作流程。",
     heroActionsAria: "主要操作",
@@ -44,7 +44,7 @@ const translations = {
     resumeEyebrow: "Resume",
     resumeTitle: "简历快照",
     resumeBody:
-      "这里突出和 finance、risk management、data analytics 最相关的经历。完整版本可以直接下载 PDF 简历。",
+      "这里突出和 data analytics、risk management、business analysis 最相关的经历。完整版本可以直接下载 PDF 简历。",
     resumeDownload: "下载完整 PDF 简历",
     experienceTitle: "Experience",
     bmoGicDate: "2025.09 - 2025.12",
@@ -79,7 +79,7 @@ const translations = {
     projectsEyebrow: "Projects",
     projectsTitle: "项目作品",
     projectsBody:
-      "这里展示最能代表我 finance、risk management 和 Excel 自动化方向的三个项目。",
+      "这里展示最能代表我 data analytics、risk management 和 business analysis 方向的三个项目。",
     projectFiltersAria: "项目筛选",
     filterAll: "全部",
     filterRisk: "Credit Risk",
@@ -120,8 +120,8 @@ const translations = {
     skillsEyebrow: "Skills",
     skillsTitle: "技能方向",
     skillsBody:
-      "技能内容已与最终简历方向对齐，聚焦 programming、analytics、business risk 和核心工具。",
-    skillFinanceTitle: "Finance & Risk",
+      "技能内容已与最终简历方向对齐，聚焦 data analytics、risk management、business analysis 和核心工具。",
+    skillFinanceTitle: "Risk Management",
     skillFinanceBody: "Credit risk, portfolio risk analysis, lending decisions, process improvement",
     skillAnalyticsTitle: "Data Analytics",
     skillAnalyticsBody: "Excel, PivotTables, dashboards, advanced formulas, Power BI, pandas, scikit-learn",
@@ -130,7 +130,7 @@ const translations = {
     skillToolsTitle: "Tools",
     skillToolsBody: "VS Code, Git, Linux",
     contactEyebrow: "Contact",
-    contactTitle: "欢迎联系我讨论金融、风险管理、数据分析或实习机会。",
+    contactTitle: "欢迎联系我讨论数据分析、风险管理、业务分析或实习机会。",
     contactEmailButton: "发送邮件",
     contactLinkedinButton: "LinkedIn",
     contactGithubButton: "GitHub",
@@ -141,9 +141,9 @@ const translations = {
     footerTop: "回到顶部",
   },
   en: {
-    pageTitle: "Sean Zhang | Finance & Risk Management",
+    pageTitle: "Sean Zhang | Data Analytics, Risk Management & Business Analysis",
     metaDescription:
-      "Sean Zhang's personal website for finance, risk management, data analytics, Excel automation projects, and resume.",
+      "Sean Zhang's personal website for data analytics, risk management, business analysis, Excel automation projects, and resume.",
     skipLink: "Skip to main content",
     brandAria: "Sean Zhang home",
     mainNavAria: "Primary navigation",
@@ -155,7 +155,7 @@ const translations = {
     languageToggleAria: "Switch to Chinese",
     menuToggle: "Open navigation",
     heroAria: "Personal introduction",
-    heroEyebrow: "Finance, Risk & Data Analytics",
+    heroEyebrow: "Data Analytics, Risk Management, Business Analysis",
     heroSummary:
       "I combine banking operations experience with Python, Power BI, SQL, and Excel/VBA to build risk dashboards, validate operational data, and automate repetitive workflows.",
     heroActionsAria: "Primary actions",
@@ -176,7 +176,7 @@ const translations = {
     resumeEyebrow: "Resume",
     resumeTitle: "Resume Snapshot",
     resumeBody:
-      "This section highlights the experiences most relevant to finance, risk management, and data analytics. The full PDF resume is available to download.",
+      "This section highlights the experiences most relevant to data analytics, risk management, and business analysis. The full PDF resume is available to download.",
     resumeDownload: "Download full PDF resume",
     experienceTitle: "Experience",
     bmoGicDate: "Sep 2025 - Dec 2025",
@@ -211,7 +211,7 @@ const translations = {
     projectsEyebrow: "Projects",
     projectsTitle: "Selected Projects",
     projectsBody:
-      "These three projects best represent my focus in finance, risk management, and Excel automation.",
+      "These three projects best represent my focus in data analytics, risk management, and business analysis.",
     projectFiltersAria: "Project filters",
     filterAll: "All",
     filterRisk: "Credit Risk",
@@ -252,8 +252,8 @@ const translations = {
     skillsEyebrow: "Skills",
     skillsTitle: "Skill Areas",
     skillsBody:
-      "The skills section is aligned with the final resume and focused on programming, analytics, business risk, and core tools.",
-    skillFinanceTitle: "Finance & Risk",
+      "The skills section is aligned with the final resume and focused on data analytics, risk management, business analysis, and core tools.",
+    skillFinanceTitle: "Risk Management",
     skillFinanceBody: "Credit risk, portfolio risk analysis, lending decisions, process improvement",
     skillAnalyticsTitle: "Data Analytics",
     skillAnalyticsBody: "Excel, PivotTables, dashboards, advanced formulas, Power BI, pandas, scikit-learn",
@@ -262,7 +262,7 @@ const translations = {
     skillToolsTitle: "Tools",
     skillToolsBody: "VS Code, Git, Linux",
     contactEyebrow: "Contact",
-    contactTitle: "Reach out to discuss finance, risk management, data analytics, or internship opportunities.",
+    contactTitle: "Reach out to discuss data analytics, risk management, business analysis, or internship opportunities.",
     contactEmailButton: "Email Me",
     contactLinkedinButton: "LinkedIn",
     contactGithubButton: "GitHub",
