@@ -495,7 +495,7 @@ h4 {
   list-style: none;
 }
 
-.timeline li {
+.timeline > li {
   display: grid;
   grid-template-columns: 104px minmax(0, 1fr);
   gap: 16px;
@@ -559,6 +559,49 @@ h4 {
 
 .project-detail-list {
   align-self: start;
+}
+
+#experience .resume-layout {
+  display: block;
+}
+
+#experience .timeline-block {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+#experience .timeline {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+#experience .timeline > li {
+  display: block;
+  min-height: 100%;
+  padding: 24px;
+  background: var(--paper-strong);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(24, 33, 29, 0.06);
+}
+
+#experience .timeline__date {
+  margin-bottom: 14px;
+}
+
+#experience .timeline__body {
+  padding-left: 0;
+  border-left: 0;
+}
+
+#experience .timeline__body::before {
+  display: none;
+}
+
+#experience .detail-list {
+  margin-top: 14px;
 }
 
 .project-filters {
@@ -764,6 +807,7 @@ h4 {
 
   .hero__facts,
   .resume-layout,
+  #experience .timeline,
   .project-grid,
   .skills-grid,
   .contact-layout,
@@ -885,7 +929,7 @@ h4 {
     padding: 20px;
   }
 
-  .timeline li {
+  .timeline > li {
     grid-template-columns: 1fr;
     gap: 8px;
   }
