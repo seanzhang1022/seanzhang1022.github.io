@@ -52,35 +52,31 @@ const translations = {
     resumeEyebrow: "Experience",
     resumeTitle: "经历概览",
     experienceEyebrow: "Experience",
-    experienceHeading: "银行运营、报告和自动化经历",
+    experienceHeading: "经历",
     resumeBody:
-      "两段 BMO Private Banking Services 实习聚焦报告、数据校验、流程协调和流程自动化。",
+      "BMO Private Banking Services 的银行运营、报告和自动化经历。",
     resumeDownload: "下载完整 PDF 简历",
     experienceTitle: "Experience",
     bmoGicDate: "Sep 2025 – Dec 2025",
     bmoGicCompany: "Bank of Montreal — Private Banking Services",
     bmoGicTitle: "GIC Intern",
-    bmoGicMeta: "Beijing, China | Sep 2025 – Dec 2025",
+    bmoGicMeta: "Beijing, China",
     bmoGicBody:
-      "使用连接 CSV 主数据的 Excel 模板生成并校验每日 GIC 申请报告，支持 100+ 份申请和后续跟进优先级追踪。",
+      "生成并校验每日 GIC 申请报告，支持 100+ 份申请和 300+ 次客户沟通。",
     bmoGicBullet1:
       "使用连接主 CSV 文件的 Excel 模板生成并校验每日 GIC 申请报告。",
     bmoGicBullet2:
-      "处理 100+ 份学生 GIC 和银行账户申请，并与客户和内部团队协调跟进。",
-    bmoGicBullet3:
-      "处理 300+ 次关于 GIC 流程、文件要求、开户步骤和后续事项的客户沟通。",
+      "处理 100+ 份申请，并完成 300+ 次关于文件、开户和后续跟进的客户沟通。",
     bmoPbsDate: "Apr 2025 – Aug 2025",
     bmoPbsCompany: "Bank of Montreal — Private Banking Services",
     bmoPbsTitle: "PBS Intern",
-    bmoPbsMeta: "Beijing, China | Apr 2025 – Aug 2025",
+    bmoPbsMeta: "Beijing, China",
     bmoPbsBody:
-      "支持 100+ 名跨境客户完成 Asian Referral Program，并开发 Excel VBA 自动化工具导入 CSV 客户数据、填写服务表格、生成个性化邮件，每周节省约 2–4 小时手动工作。",
+      "开发 Excel VBA 工具并支持 100+ 名跨境客户完成 BMO Asian Referral Program。",
     bmoPbsBullet1:
-      "开发 Excel VBA 自动化工具导入客户数据、自动填写服务表格并生成个性化邮件，每周减少约 2–4 小时重复手动工作。",
+      "开发 Excel VBA 工具导入 CSV 数据、自动填写服务表格并生成客户邮件，每周节省 2–4 小时。",
     bmoPbsBullet2:
-      "支持 BMO Asian Referral Program，引导 100+ 名跨境客户完成开户流程。",
-    bmoPbsBullet3:
-      "处理大量英文和中文邮件/电话，解释银行流程、KYC 文件要求、申请状态和开户问题。",
+      "引导 100+ 名跨境客户完成 BMO Asian Referral Program，包括开户和 KYC 文件准备。",
     educationTitle: "Education",
     educationEyebrow: "教育",
     educationHeading: "University of Waterloo",
@@ -205,35 +201,31 @@ const translations = {
     resumeEyebrow: "Experience",
     resumeTitle: "Experience Snapshot",
     experienceEyebrow: "Experience",
-    experienceHeading: "Banking operations, reporting, and automation experience",
+    experienceHeading: "Experience",
     resumeBody:
-      "Two BMO Private Banking Services internships focused on reporting, data validation, workflow coordination, and process automation.",
+      "Banking operations, reporting, and automation at BMO Private Banking Services.",
     resumeDownload: "Download full PDF resume",
     experienceTitle: "Experience",
     bmoGicDate: "Sep 2025 – Dec 2025",
     bmoGicCompany: "Bank of Montreal — Private Banking Services",
     bmoGicTitle: "GIC Intern",
-    bmoGicMeta: "Beijing, China | Sep 2025 – Dec 2025",
+    bmoGicMeta: "Beijing, China",
     bmoGicBody:
-      "Generated and validated daily GIC application reports using Excel templates connected to master CSV files, supporting the tracking of 100+ applications and follow-up priorities.",
+      "Generated and validated daily GIC reports while supporting 100+ applications and 300+ client communications.",
     bmoGicBullet1:
       "Generated and validated daily GIC application reports using Excel templates linked to master CSV files.",
     bmoGicBullet2:
-      "Processed 100+ student GIC and bank account applications, coordinating with clients and internal teams.",
-    bmoGicBullet3:
-      "Handled 300+ client communications on GIC procedures, documentation, account-opening steps, and follow-up requirements.",
+      "Processed 100+ applications and handled 300+ client communications on documentation, account-opening, and follow-ups.",
     bmoPbsDate: "Apr 2025 – Aug 2025",
     bmoPbsCompany: "Bank of Montreal — Private Banking Services",
     bmoPbsTitle: "PBS Intern",
-    bmoPbsMeta: "Beijing, China | Apr 2025 – Aug 2025",
+    bmoPbsMeta: "Beijing, China",
     bmoPbsBody:
-      "Guided 100+ cross-border clients through the Asian Referral Program and built an Excel VBA automation tool to import CSV customer data, auto-fill service forms, and generate personalized client emails, saving approximately 2–4 hours of manual work per week.",
+      "Built an Excel VBA workflow and guided 100+ cross-border clients through BMO's Asian Referral Program.",
     bmoPbsBullet1:
-      "Built an Excel VBA automation tool to import customer data, auto-fill service forms, and generate personalized client emails, reducing repetitive manual work by approximately 2–4 hours per week.",
+      "Built an Excel VBA tool to import CSV data, auto-fill service forms, and generate client emails, saving 2–4 hours per week.",
     bmoPbsBullet2:
-      "Supported BMO's Asian Referral Program by guiding 100+ cross-border clients through account-opening procedures.",
-    bmoPbsBullet3:
-      "Managed high-volume English and Mandarin emails/calls on banking procedures, KYC documentation, application status, and onboarding issues.",
+      "Guided 100+ cross-border clients through BMO's Asian Referral Program, including account-opening and KYC documentation.",
     educationTitle: "Education",
     educationEyebrow: "Education",
     educationHeading: "University of Waterloo",
