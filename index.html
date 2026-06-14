@@ -7,7 +7,15 @@
       name="description"
       content="Sean Zhang's personal website for data analytics, risk management, business analysis, Excel automation projects, and resume."
     />
-    <title>Sean Zhang | Data Analytics, Risk Management &amp; Business Analysis</title>
+    <meta property="og:title" content="Sean Zhang | Risk, Data &amp; Business Analytics" />
+    <meta
+      property="og:description"
+      content="University of Waterloo Financial Analysis and Risk Management student with banking operations experience, Excel VBA automation, Power BI, Python, SQL, credit risk analytics, and business process improvement work."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seanzhang1022.github.io/" />
+    <meta property="og:image" content="https://seanzhang1022.github.io/assets/portfolio-workspace.png" />
+    <title>Sean Zhang | Risk, Data &amp; Business Analytics</title>
     <link rel="preload" href="assets/portfolio-workspace.png" as="image" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -22,10 +30,13 @@
 
       <div class="header-actions">
         <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-i18n-aria-label="mainNavAria">
-          <a href="#resume" data-i18n="navResume">Resume</a>
+          <a href="#about" data-i18n="navAbout">About</a>
+          <a href="#experience" data-i18n="navExperience">Experience</a>
           <a href="#projects" data-i18n="navProjects">Projects</a>
           <a href="#skills" data-i18n="navSkills">Skills</a>
+          <a href="#education" data-i18n="navEducation">Education</a>
           <a href="#contact" data-i18n="navContact">Contact</a>
+          <a href="assets/sean-zhang-resume-2026-06.pdf" target="_blank" rel="noopener noreferrer" data-i18n="navResume">Resume</a>
         </nav>
 
         <button
@@ -56,12 +67,29 @@
           <p class="eyebrow" data-i18n="heroEyebrow">Data Analytics, Risk Management, Business Analysis</p>
           <h1>Sean Zhang</h1>
           <p class="hero__summary" data-i18n="heroSummary">
-            I combine banking operations experience with Python, Power BI, SQL, and Excel/VBA to build risk dashboards, validate operational data, and automate repetitive workflows.
+            University of Waterloo Financial Analysis and Risk Management student with hands-on experience in banking operations, Excel VBA automation, Power BI, Python, SQL, credit risk analytics, and business process improvement.
           </p>
 
           <div class="hero__actions" aria-label="Primary actions" data-i18n-aria-label="heroActionsAria">
             <a class="button button--primary" href="#projects" data-i18n="heroProjectsButton">View Projects</a>
-            <a class="button button--secondary" href="assets/sean-zhang-resume-2026-06.pdf" data-i18n="heroResumeButton">Download Resume</a>
+            <a
+              class="button button--secondary"
+              href="assets/sean-zhang-resume-2026-06.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="heroResumeButton"
+            >
+              Download Resume
+            </a>
+            <a
+              class="button button--secondary"
+              href="https://linkedin.com/in/seanzhang1022"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="heroLinkedinButton"
+            >
+              LinkedIn
+            </a>
           </div>
 
           <dl class="hero__facts" aria-label="Personal overview" data-i18n-aria-label="heroFactsAria">
@@ -75,43 +103,62 @@
             </div>
             <div>
               <dt data-i18n="factToolsLabel">Automation</dt>
-              <dd data-i18n="factToolsValue">2-4 hours saved per week with VBA</dd>
+              <dd data-i18n="factToolsValue">2–4 hours/week saved through VBA</dd>
+            </div>
+            <div>
+              <dt data-i18n="factCreditLabel">Credit analytics</dt>
+              <dd data-i18n="factCreditValue">1,000 credit applicants analyzed</dd>
             </div>
           </dl>
         </div>
       </section>
 
-      <section class="section section--intro" aria-label="Profile summary" data-i18n-aria-label="introAria">
+      <section class="section section--intro" id="about" aria-label="About Sean Zhang" data-i18n-aria-label="introAria">
         <div class="section__inner intro-grid">
           <div>
-            <p class="eyebrow" data-i18n="profileEyebrow">Profile</p>
-            <h2 data-i18n="profileTitle">Building practical analytics solutions with financial judgment and data tools.</h2>
+            <p class="eyebrow" data-i18n="profileEyebrow">About</p>
+            <h2 data-i18n="profileTitle">Combining banking experience with analytics and automation</h2>
           </div>
-          <p data-i18n="profileBody">
-            Finance and risk analytics student at the University of Waterloo with experience in banking operations, Excel/VBA automation, Power BI, Python, and credit risk modeling. I build practical analytics solutions that improve reporting accuracy, workflow efficiency, and business decision-making.
-          </p>
+          <div class="intro-copy">
+            <p data-i18n="profileBody">
+              I am pursuing a Bachelor of Mathematics in Financial Analysis and Risk Management at the University of Waterloo with a Computing Minor and co-op sequence.
+            </p>
+            <p data-i18n="profileBody2">
+              During two internships with BMO Private Banking Services, I supported GIC and cross-border banking workflows, built Excel VBA automation, and helped improve reporting accuracy and process efficiency. My project work includes credit risk modelling with Python and scikit-learn, Power BI dashboarding, and Excel-based loan portfolio analysis.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section class="section" id="resume">
+      <section class="section" id="experience">
         <div class="section__inner">
           <div class="section-heading">
-            <p class="eyebrow" data-i18n="resumeEyebrow">Resume</p>
-            <h2 data-i18n="resumeTitle">Resume Snapshot</h2>
+            <p class="eyebrow" data-i18n="experienceEyebrow">Experience</p>
+            <h2 data-i18n="experienceHeading">Banking operations, reporting, and automation experience</h2>
             <p data-i18n="resumeBody">
-              This section highlights the experiences most relevant to data analytics, risk management, and business analysis. The full PDF resume is available to download.
+              Two BMO Private Banking Services internships focused on reporting, data validation, workflow coordination, and process automation.
             </p>
-            <a class="inline-link" href="assets/sean-zhang-resume-2026-06.pdf" data-i18n="resumeDownload">Download full PDF resume</a>
+            <a
+              class="inline-link"
+              href="assets/sean-zhang-resume-2026-06.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="resumeDownload"
+            >
+              Download full PDF resume
+            </a>
           </div>
 
-          <div class="resume-layout">
+          <div class="resume-layout resume-layout--single">
             <article class="timeline-block">
               <h3 data-i18n="experienceTitle">Experience</h3>
               <ol class="timeline">
                 <li>
-                  <div class="timeline__date" data-i18n="bmoGicDate">Sep 2025 - Dec 2025</div>
+                  <div class="timeline__date" data-i18n="bmoGicDate">Sep 2025 – Dec 2025</div>
                   <div class="timeline__body">
-                    <h4 data-i18n="bmoGicTitle">Bank of Montreal · Private Banking Services · GIC Intern</h4>
+                    <p class="timeline__company" data-i18n="bmoGicCompany">Bank of Montreal — Private Banking Services</p>
+                    <h4 data-i18n="bmoGicTitle">GIC Intern</h4>
+                    <p class="timeline__meta" data-i18n="bmoGicMeta">Beijing, China | Sep 2025 – Dec 2025</p>
                     <ul class="detail-list">
                       <li data-i18n="bmoGicBullet1">
                         Generated and validated daily GIC application reports using Excel templates linked to master CSV files.
@@ -126,12 +173,14 @@
                   </div>
                 </li>
                 <li>
-                  <div class="timeline__date" data-i18n="bmoPbsDate">Apr 2025 - Aug 2025</div>
+                  <div class="timeline__date" data-i18n="bmoPbsDate">Apr 2025 – Aug 2025</div>
                   <div class="timeline__body">
-                    <h4 data-i18n="bmoPbsTitle">Bank of Montreal · Private Banking Services · PBS Intern</h4>
+                    <p class="timeline__company" data-i18n="bmoPbsCompany">Bank of Montreal — Private Banking Services</p>
+                    <h4 data-i18n="bmoPbsTitle">PBS Intern</h4>
+                    <p class="timeline__meta" data-i18n="bmoPbsMeta">Beijing, China | Apr 2025 – Aug 2025</p>
                     <ul class="detail-list">
                       <li data-i18n="bmoPbsBullet1">
-                        Built an Excel VBA automation tool to import customer data, auto-fill service forms, and generate personalized client emails, reducing repetitive manual work by approximately 2-4 hours per week.
+                        Built an Excel VBA automation tool to import customer data, auto-fill service forms, and generate personalized client emails, reducing repetitive manual work by approximately 2–4 hours per week.
                       </li>
                       <li data-i18n="bmoPbsBullet2">
                         Supported BMO's Asian Referral Program by guiding 100+ cross-border clients through account-opening procedures.
@@ -145,29 +194,6 @@
               </ol>
             </article>
 
-            <article class="timeline-block">
-              <h3 data-i18n="educationTitle">Education</h3>
-              <ol class="timeline">
-                <li>
-                  <div class="timeline__date" data-i18n="waterlooDate">Sep 2023 - May 2028</div>
-                  <div class="timeline__body">
-                    <h4 data-i18n="waterlooTitle">University of Waterloo · BMath in Financial Analysis and Risk Management</h4>
-                    <p data-i18n="waterlooBody">
-                      Computing Minor, Co-op. Academic focus includes financial analysis, risk management, programming, data analytics, and quantitative tools for business decisions.
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="timeline__date" data-i18n="techDate">Technologies</div>
-                  <div class="timeline__body">
-                    <h4 data-i18n="techTitle">Finance + Analytics Toolkit</h4>
-                    <p data-i18n="techBody">
-                      Python, SQL, VBA, R, Excel, Power BI, pandas, scikit-learn, data validation, dashboarding.
-                    </p>
-                  </div>
-                </li>
-              </ol>
-            </article>
           </div>
         </div>
       </section>
@@ -229,7 +255,7 @@
                   GitHub
                 </a>
                 <a
-                  href="https://github.com/seanzhang1022/credit-risk-analytics-dashboard/tree/main/powerbi"
+                  href="https://github.com/seanzhang1022/credit-risk-analytics-dashboard/blob/main/powerbi/Credit%20Risk%20Executive%20Overview.pbix"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-i18n="projectDashboardLink"
@@ -262,13 +288,13 @@
                 <li>Expected Loss</li>
               </ul>
               <div class="project-card__links">
-                <a href="assets/sean-zhang-resume-2026-06.pdf" data-i18n="loanProjectLink">View Project</a>
+                <a href="loan-portfolio-dashboard.html" data-i18n="loanProjectLink">View Project</a>
               </div>
             </article>
 
             <article class="project-card" data-category="excel">
               <div class="project-card__top">
-                <p class="project-card__type" data-i18n="excelProjectType">Excel/VBA · Banking Process Automation</p>
+                <p class="project-card__type" data-i18n="excelProjectType">Excel VBA · Process Automation</p>
                 <h3 data-i18n="excelProjectTitle">Excel VBA Banking Workflow Automation</h3>
               </div>
               <ul class="detail-list project-detail-list">
@@ -276,7 +302,7 @@
                   Built an Excel VBA tool to import client data from CSV files, populate service forms, and generate personalized emails.
                 </li>
                 <li data-i18n="excelProjectBullet2">
-                  Reduced repetitive manual data entry by approximately 2-4 hours per week while improving workflow consistency.
+                  Reduced repetitive manual data entry by approximately 2–4 hours per week while improving workflow consistency.
                 </li>
               </ul>
               <ul class="tag-list" aria-label="Technology stack" data-i18n-aria-label="techStackAria">
@@ -286,11 +312,14 @@
                 <li>Process Automation</li>
               </ul>
               <div class="project-card__links">
-                <a href="assets/sean-zhang-resume-2026-06.pdf" data-i18n="projectResumeLink">Resume</a>
+                <a href="vba-banking-workflow.html" data-i18n="vbaProjectLink">View Project</a>
               </div>
             </article>
 
           </div>
+          <p class="project-disclaimer" data-i18n="projectDisclaimer">
+            Public descriptions contain no confidential client data, internal banking forms, proprietary templates, or screenshots containing confidential information.
+          </p>
         </div>
       </section>
 
@@ -300,28 +329,50 @@
             <p class="eyebrow" data-i18n="skillsEyebrow">Skills</p>
             <h2 data-i18n="skillsTitle">Skill Areas</h2>
             <p data-i18n="skillsBody">
-              The skills section is aligned with the final resume and focused on data analytics, risk management, business analysis, and core tools.
+              Technical and business skills applied across banking operations, risk analysis, reporting, automation, and dashboard development.
             </p>
           </div>
 
           <div class="skills-grid">
             <article class="skill-block">
-              <h3 data-i18n="skillFinanceTitle">Risk Management</h3>
-              <p data-i18n="skillFinanceBody">Credit risk, portfolio risk analysis, lending decisions, process improvement</p>
+              <h3 data-i18n="skillProgrammingTitle">Programming</h3>
+              <p data-i18n="skillProgrammingBody">Python, SQL, VBA, R</p>
             </article>
             <article class="skill-block">
-              <h3 data-i18n="skillAnalyticsTitle">Data Analytics</h3>
-              <p data-i18n="skillAnalyticsBody">Excel, PivotTables, dashboards, advanced formulas, Power BI, pandas, scikit-learn</p>
+              <h3 data-i18n="skillAnalyticsTitle">Data &amp; Business Intelligence</h3>
+              <p data-i18n="skillAnalyticsBody">Excel, Power BI, pandas, scikit-learn, data validation, dashboarding</p>
             </article>
             <article class="skill-block">
-              <h3 data-i18n="skillExcelTitle">Programming</h3>
-              <p data-i18n="skillExcelBody">Python, SQL, VBA, R</p>
+              <h3 data-i18n="skillExcelTitle">Excel &amp; Automation</h3>
+              <p data-i18n="skillExcelBody">PivotTables, advanced formulas, CSV workflows, report automation, VBA</p>
+            </article>
+            <article class="skill-block">
+              <h3 data-i18n="skillRiskTitle">Risk &amp; Business Analysis</h3>
+              <p data-i18n="skillRiskBody">Credit risk, portfolio analysis, expected loss, process improvement, KYC documentation</p>
             </article>
             <article class="skill-block">
               <h3 data-i18n="skillToolsTitle">Tools</h3>
-              <p data-i18n="skillToolsBody">VS Code, Git, Linux</p>
+              <p data-i18n="skillToolsBody">Git, VS Code, Linux, LaTeX</p>
             </article>
           </div>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="education">
+        <div class="section__inner">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="educationEyebrow">Education</p>
+            <h2 data-i18n="educationHeading">University of Waterloo</h2>
+          </div>
+
+          <article class="timeline-block education-block">
+            <p class="timeline__company" data-i18n="waterlooSchool">University of Waterloo</p>
+            <h3 data-i18n="waterlooTitle">Bachelor of Mathematics in Financial Analysis and Risk Management</h3>
+            <p class="timeline__meta" data-i18n="waterlooMeta">Computing Minor · Co-op | Sep 2023 – May 2028</p>
+            <p data-i18n="waterlooBody">
+              Academic focus: financial analysis, risk management, statistics, programming, data analytics, and quantitative tools for business decisions.
+            </p>
+          </article>
         </div>
       </section>
 
@@ -329,11 +380,22 @@
         <div class="section__inner contact-layout">
           <div>
             <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
-            <h2 data-i18n="contactTitle">Reach out to discuss data analytics, risk management, business analysis, or internship opportunities.</h2>
+            <h2 data-i18n="contactTitle">Let's connect</h2>
+            <p class="contact-copy" data-i18n="contactBody">
+              I am currently seeking Fall 2026 co-op opportunities in risk analytics, business analysis, data analytics, PMO, finance, and process improvement.
+            </p>
           </div>
           <div class="contact-actions">
             <a class="button button--primary" href="mailto:s244zhan@uwaterloo.ca" data-i18n="contactEmailButton">Email Me</a>
-            <a class="button button--secondary" href="https://linkedin.com/in/seanzhang1022" data-i18n="contactLinkedinButton">LinkedIn</a>
+            <a
+              class="button button--secondary"
+              href="https://linkedin.com/in/seanzhang1022"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="contactLinkedinButton"
+            >
+              LinkedIn
+            </a>
             <a
               class="button button--secondary"
               href="https://github.com/seanzhang1022"
@@ -343,7 +405,13 @@
             >
               GitHub
             </a>
-            <a class="button button--secondary" href="assets/sean-zhang-resume-2026-06.pdf" data-i18n="contactResumeButton">
+            <a
+              class="button button--secondary"
+              href="assets/sean-zhang-resume-2026-06.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="contactResumeButton"
+            >
               Download Resume
             </a>
             <button class="button button--secondary" type="button" data-copy-email data-email="s244zhan@uwaterloo.ca" data-i18n="contactCopyButton">
@@ -356,7 +424,7 @@
     </main>
 
     <footer class="site-footer">
-      <p data-i18n="footerText">© 2026 Sean Zhang. Finance, risk management, analytics, and automation.</p>
+      <p data-i18n="footerText">© 2026 Sean Zhang. Risk analytics, data analytics, business analysis, and automation.</p>
       <a href="#top" data-i18n="footerTop">Back to top</a>
     </footer>
 
